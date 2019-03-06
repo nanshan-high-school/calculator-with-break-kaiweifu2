@@ -1,0 +1,15 @@
+#include <iostream>
+using namespace std;
+int main() {
+  int total = 0 , num ;
+  
+  for(int i = 0 ; i >= 0; i++ ){
+     cout<<"南港的朋友們給我一個數字:";
+     cin>>num;
+     total = num + total ;
+     if (num == 0 ){
+       break;
+     }
+  }
+  cout<<"哎呀你給我零呢,之前你給我的數字總和加起來是:"<<total;
+}
